@@ -24,9 +24,6 @@ class Song
     @title = title
   end
   
-  def artist
-    self.artist.name
-  end
 end
 
 adele = Artist.new("Adele")
