@@ -1,5 +1,4 @@
-require 'pry'
-require 'song.rb'
+require 'song'
 class Artist
   attr_accessor :name
   
