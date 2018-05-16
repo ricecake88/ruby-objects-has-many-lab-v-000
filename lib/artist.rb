@@ -16,10 +16,3 @@ class Artist
     @songs
   end
 end
-
-
-Song.new("Hello")
-        adele.add_song(hello)
-        expect(adele.songs).to include(hello)
-        expect(hello.artist).to eq(adele)
-      end
