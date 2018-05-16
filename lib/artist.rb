@@ -1,4 +1,3 @@
-require 'lib/song'
 class Artist
   attr_accessor :name
   
