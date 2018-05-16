@@ -17,4 +17,4 @@ class Artist
   end
 end
 
-adele = Artist.new("")
+adele = Artist.new("Adele")
