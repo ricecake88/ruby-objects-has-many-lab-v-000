@@ -17,6 +17,17 @@ class Artist
   end
 end
 
+class Song
+  attr_accessor :title, :artist
+  def initialize(title)
+    @title = title
+  end
+  
+  def artist
+    self.artist
+  end
+end
+
 adele = Artist.new("Adele")
 hello = Song.new("Hello")
 adele.add_song(hello)
