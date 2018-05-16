@@ -25,7 +25,7 @@ class Song
   end
   
   def artist
-    binding.pry
+    @artist.name
   end
 end
 
