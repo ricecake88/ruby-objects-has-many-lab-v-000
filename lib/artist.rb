@@ -24,6 +24,9 @@ class Song
     @title = title
   end
   
+  def artist
+    binding.pry
+  end
 end
 
 adele = Artist.new("Adele")
